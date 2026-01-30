@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "98a69ca2ad50093419eb823e8e095a3a",
+    "content-hash": "700a87d96637bc0372ad26fe1499f03e",
     "packages": [
         {
             "name": "brick/math",
@@ -3033,11 +3033,17 @@
         },
         {
             "name": "rakutentech/laravel-request-docs",
-            "version": "dev-master",
+            "version": "dev-attribute-use-validator",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kenng/laravel-request-docs.git",
+                "reference": "ad5b0d8ebf61af6bddfc1f8fe7b0585b0eca33e7"
+            },
             "dist": {
-                "type": "path",
-                "url": "../laravel-request-docs",
-                "reference": "0e9db7bb66c5bdd7117f511099516d0a475b7f5f"
+                "type": "zip",
+                "url": "https://api.github.com/repos/kenng/laravel-request-docs/zipball/ad5b0d8ebf61af6bddfc1f8fe7b0585b0eca33e7",
+                "reference": "ad5b0d8ebf61af6bddfc1f8fe7b0585b0eca33e7",
+                "shasum": ""
             },
             "require": {
                 "ext-json": "*",
@@ -3059,6 +3065,7 @@
                 "squizlabs/php_codesniffer": "^3.6",
                 "vimeo/psalm": "^4.8|^5.6|^6.6"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -3111,10 +3118,10 @@
                 "laravel-request-docs",
                 "rakutentech"
             ],
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "support": {
+                "source": "https://github.com/kenng/laravel-request-docs/tree/attribute-use-validator"
+            },
+            "time": "2026-01-30T01:58:18+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -8481,7 +8488,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {},
+    "stability-flags": {
+        "rakutentech/laravel-request-docs": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

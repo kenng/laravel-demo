@@ -2,15 +2,15 @@
     "name": "laravel/laravel",
     "type": "project",
     "description": "The skeleton application for the Laravel framework.",
-    "keywords": ["laravel", "framework"],
+    "keywords": [
+        "laravel",
+        "framework"
+    ],
     "license": "MIT",
     "repositories": [
         {
-            "type": "path",
-            "url": "../laravel-request-docs",
-            "options": {
-                "symlink": true
-            }
+            "type": "vcs",
+            "url": "https://github.com/kenng/laravel-request-docs.git"
         }
     ],
     "require": {
@@ -19,7 +19,7 @@
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.3",
         "laravel/tinker": "^2.8",
-        "rakutentech/laravel-request-docs": "*"
+        "rakutentech/laravel-request-docs": "dev-attribute-use-validator"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
